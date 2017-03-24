@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Basic equations</title>
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+    <header><h1>Bloodlust</h1></header>
+       <main>
+			<p> bla bla bla introduction</p>
+                    <p>*add image of stats*</p>
+                    <p>These are the names of each stats that is showed in the profile:</p>
+                    <p>
+		      		  <li>01 - Base Power</li>
+                      <li>02 - Bonus Power</li>                   
+                      <li>03 - Basic Attack</li>
+                      <li>04 - Bonus Attack</li>
+                      
+                      <li>05 - Base Endurance</li>
+                      <li>06 - Bonus Endurance</li>                      
+                      <li>07 - Basic Defense</li>
+                      <li>08 - Bonus Defense</li>
+                      
+                      <li>09 - Basic Crit Factor</li>
+                      <li>10 - Bonus Crit Factor</li>
+                      
+                      <li>11 - Crit Resist Factor</li>
+                      <li>12 - Bonus Crit Resist Factor</li>
+                      
+                      <li>13 - Crit Power</li>
+                      
+                      <li>14 - Basic Attack Speed</li>
+                      <li>15 - Bonus Attack Speed</li>
+
+                    </p>
+			<hr>
+			<h3>01 - Base Power</h3>
+			<p>explanation</p>
+			<hr>
+			<h3>02 - Bonus Power</h3>
+			<p>explanation</p>
+			<hr>
+			<h3>03 - Basic Attack</h3>
+			<p>explanation</p>
+			$$ BasicAttack=\left( \sum_{} AttackModifier \right)\left(3+0.03\times BasePower\right)$$
+			<hr>
+			<h3>04 - Bonus Attack</h3>
+			$$ BonusAttack=BasicAttack\times \left(\frac{BonusPower}{100+BasePower} \right) $$
+			<p>explanation</p>
+			<hr>
+			<h3>Total Attack</h3>
+			<p>explanation</p>
+			$$ TotalAttack=BasicAttack+BonusAttack $$
+			<hr>
+			<h3>05 - Base Endurance</h3>
+			<p>explanation</p>
+			<hr>
+			<h3>06 - Bonus Endurance</h3>
+			<p>explanation</p>
+			<hr>
+			<h3>07 - Basic Defense </h3>
+			<p>explanation</p>
+			$$ BasicDefense=\left( \sum_{} DefenseModifier \right)\left(0.5+0.01\times BaseEndurance\right) $$
+			<hr>
+			<h3>08 - Bonus Defenser</h3>
+			<p>explanation</p>
+			$$ BonusDefense=BasicDefense\times \left(\frac{BonuEndurance}{100+BaseEndurance} \right) $$
+			<hr>
+			<h3>Total Defense</h3>
+			<p>explanation</p>
+			$$ TotalDefense=BasicDefense+BonusDefense $$
+			<hr>
+			<h3>09 - Basic Crit Factor</h3>
+			<p>explanation</p>
+			<hr>
+			<h3>10 - Bonus Crit Factor</h3>
+			<p>explanation</p>
+			<hr>
+			<h3>11 - Base Crit Resist Factor</h3>
+			<p>explanation</p>
+			<hr>
+			<h3>12 - Bonus Crit Resist Factor</h3>
+			<p>explanation</p>
+			<hr>
+			<h3>13 - Crit Power</h3>
+			<p>explanation</p>
+			<hr>
+			<h3>14 - Base Attack Speed</h3>
+			<p>explanation</p>
+			<hr>
+			<h3>15 - Bonus Attack Speed</h3>
+			<p>explanation</p>
+			<hr>			
+        </main>
+</body>
+
+</html>
+

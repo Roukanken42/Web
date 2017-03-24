@@ -1,0 +1,982 @@
+
+{"user_id": 0,"name": "Skill","children": [        
+        {"user_id": 0,"name": "ID","children": [
+                {"user_id": 0,"name": "AABBCC : AA = Skill Number / BB = Skill Level / CC = Modifier"}
+        ]} ,
+        
+        {"user_id": 1,"name": "Name","children": [
+                {"user_id": 0,"name": "Race_Gender_Lv_Name"}
+        ]},
+        
+        {"user_id": 2,"name": "type","children": [
+                    {"user_id": 0,"name": "change","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]},
+                    {"user_id": 1,"name": "combo","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]},
+                    {"user_id": 2,"name": "combo_instance","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]},
+                    {"user_id": 3,"name": "dash","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]},
+                    {"user_id": 4,"name": "evade","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]},
+                    {"user_id": 5,"name": "instance","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]},
+                    {"user_id": 6,"name": "movingCharge","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]},
+                    {"user_id": 7,"name": "normal","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]},
+                    {"user_id": 8,"name": "notimeline","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]},
+                    {"user_id": 7,"name": "normal","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]},
+                    {"user_id": 8,"name": "notimeline","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]},            
+                    {"user_id": 9,"name": "projectile","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]},
+                    {"user_id": 10,"name": "shootingmovingskill","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]},
+                    {"user_id": 11,"name": "stand","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]},
+                    {"user_id": 12,"name": "switch","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]}, 
+                    {"user_id": 13,"name": "userslug","children": [
+                        {"user_id": 0,"name": "????????????????"}
+                    ]}             
+        ]},
+        
+        {"user_id": 3,"name": "category","children": [
+                {"user_id": 0,"name": "skillnumber,###,type,###,###,###,###"}
+        ]},
+        
+        {"user_id": 4,"name": "templateId","children": [
+                {"user_id": 0,"name": "is the base structure id"}
+        ]},
+        
+        {"user_id": 5,"name": "nextSkill","children": [
+                {"user_id": 0,"name": "Skill ID for the next skill in multihit skills, but user control. Eg:Close quarters, Rapid Fire"}
+        ]},
+        
+        {"user_id": 6,"name": "timeRate","children": [
+                {"user_id": 0,"name": "Speed of the all time-actions of the skill. Eg.  timeRate=”1.5” means all times need be divided by 1.5"}
+        ]},
+        
+        {"user_id": 7,"name": "attackRange","children": [
+                {"user_id": 0,"name": "Range of the attack."}
+        ]},
+        
+        {"user_id": 8,"name": "attackRangeMax","children": [
+                {"user_id": 0,"name": "?????????????????"}
+        ]},
+        
+        {"user_id": 9,"name": "autoUse","children": [
+                {"user_id": 0,"name": "true = ?????????? / false = ??????????"}
+        ]},
+        
+        {"user_id": 10,"name": "changeDirToCenter","children": [
+                {"user_id": 0,"name": "true = ?????????? / false = ??????????"}
+        ]},
+        
+        {"user_id": 11,"name": "needWeapon","children": [
+                {"user_id": 0,"name": "true = Need weapon equipped to perform skill / false = Don't  need weapon equipped to perform skill"}
+        ]},
+        
+        {"user_id": 12,"name": "pushTarget","children": [
+                {"user_id": 0,"name": "push = ?????????? / stop = ??????????"}
+        ]},
+        
+        {"user_id": 13,"name": "returnAnimSet","children": [
+                {"user_id": 0,"name": "Animation File used by this skill"}
+        ]},
+        
+        {"user_id": 14,"name": "totalAtk","children": [
+                {"user_id": 0,"name": "Base damage of the skill."}
+        ]},
+        
+        {"user_id": 15,"name": "parentId","children": [
+                {"user_id": 0,"name": "Id of the lvl1 of this skill"}
+        ]},
+        
+        {"user_id": 16,"name": "nocTanUse","children": [
+                {"user_id": 0,"name": "Type of the effect that noctenium applies"}
+        ]},
+        
+        {"user_id": 17,"name": "nocTanRate","children": [
+                {"user_id": 0,"name": "Value of the noctenium effect"}
+        ]},
+        
+        {"user_id": 18,"name": "totalStk","children": [
+                {"user_id": 0,"name": "Warrior Only : Number of egdes in PvE"}
+        ]},
+        
+        {"user_id": 19,"name": "totalStkPvp","children": [
+                {"user_id": 0,"name": "Warrior Only : Number of egdes in PvP"}]
+        },
+        
+        {"user_id": 20,"name": "changeDirection","children": [
+                {"user_id": 0,"name": "Rotate player by ## degrees "}
+        ]},
+        
+        {"user_id": 21,"name": "useSkillwhileAirReaction","children": [
+                {"user_id": 0,"name": "true = Can be used while Airbone / ?doesnt exist? = Can’t be used while Airbone "}
+        ]},
+        
+        {"user_id": 22,"name": "useSkillwhileBulldozer","children": [
+                {"user_id": 0,"name": "true = Can be used while win Bullrush / ?doesnt exist? = Can’t be used while in Bullrush"}
+        ]},
+        
+        {"user_id": 23,"name": "useSkillwhileReaction","children": [
+                {"user_id": 0,"name": "true = Can be used while Knockdown / ?doesnt exist? = Can’t be used while Knockdown"}
+        ]},
+        
+        {"user_id": 24,"name": "connectNextSkill","children": [
+                {"user_id": 0,"name": "Skill ID for the next skill in multipart skills. Eg:Snare Projectile cannot be stopped after casting the first part"}
+        ]},
+        
+        {"user_id": 25,"name": "keepMovingCharge","children": [
+                {"user_id": 0,"name": "true = Can move while charging a skill / ?doesnt exist? = Can’t move while charging a skill"}
+        ]},
+        
+        {"user_id": 26,"name": "keptMovingCharge","children": [
+                {"user_id": 0,"name": "???????????????????"}
+        ]},
+
+        
+        {"user_id": 27,"name": "Property","children":[
+            {"user_id": 0,"name": "weaponStatus","children": [
+                {"user_id": 0,"name": "out = Show weapon / in = Don't show weapon"}
+            ]},
+            {"user_id": 1,"name": "Defence","children": [
+                {"user_id": 0,"name": "true = ?????????? / ?doesnt exist? = ????????"}
+            ]},
+            {"user_id": 2,"name": "reactionPendingType","children": [
+                {"user_id": 0,"name": "allTineLine = ?????????? / immediateCancel = ???????? / normal = ????????"}
+            ]},
+            {"user_id": 3,"name": "skillPendingType","children": [
+                {"user_id": 0,"name": "List options"}
+            ]},
+            {"user_id": 4,"name": "cancelPressPendingTime","children": [
+                {"user_id": 0,"name": "Brawler : smash attack"}
+            ]},
+            {"user_id": 5,"name": "skillPendingTypeForAutoUse","children": [
+                {"user_id": 0,"name": "Brawler : smash attack"}
+            ]},
+            {"user_id": 6,"name": "useStGaugeFullToggle","children": [
+                {"user_id": 0,"name": "true = Use Special Resource (eg.:ninja/chi) / ?doesnt exist? = Doesnt use Special Resource"}
+            ]},
+            {"user_id": 7,"name": "stuckTimeAfterUseSkill","children": [
+                {"user_id": 0,"name": "Ninja : 1 = ??????? / empty = ??????"}
+            ]},
+            {"user_id": 8,"name": "noCorrectionLocation","children": [
+                {"user_id": 0,"name": "Brawler : DragonRisingBlow only "}
+            ]}    
+        ]},
+
+        {"user_id": 28,"name": "Bullet","children": [
+            {"user_id": 0,"name": "shotSkill","children": [
+                {"user_id": 0,"name": "Id of the shot"}
+            ]},
+            {"user_id": 1,"name": "createTime","children": [
+                {"user_id": 0,"name": "Time the bullet start"}
+            ]},
+            {"user_id": 2,"name": "detachTimee","children": [
+                {"user_id": 0,"name": "??????????"}
+            ]},
+            {"user_id": 3,"name": "flyingDuration","children": [
+                {"user_id": 0,"name": "Time to bullet hit max distance (1000 is the value for skills without bullets"}
+            ]},
+            {"user_id": 4,"name": "startSkill","children": [
+                {"user_id": 0,"name": "Id of the skill that start the bullet"}
+            ]},
+            {"user_id": 5,"name": "projectileHit","children": [
+                {"user_id": 0,"name": "Can explode mid fligh? If yes is true"}
+            ]},
+            {"user_id": 6,"name": "beamEffect","children": [
+                {"user_id": 0,"name": "Lancer leash: Create a beam that mark the projectile path"}
+            ]},
+            {"user_id": 7,"name": "flyingBackDuration","children": [
+                {"user_id": 0,"name": "Lancer leash: Time to push the target back"}
+            ]}
+        ]},
+
+        {"user_id": 29,"name": "Action","children": [
+            {"user_id": 0,"name": "specialEffectList","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "moveInvicible","children": [
+                {"user_id": 0,"name": "endTime","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 1,"name": "startTime","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]}                    
+            ]},
+            {"user_id": 2,"name": "pending","children": [
+                {"user_id": 0,"name": "startTime","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]}
+            ]},
+            {"user_id": 3,"name": "stageList","children": [
+                {"user_id": 0,"name": "stage","children":[
+                        {"user_id": 0,"name": "scriptId","children":[
+                                {"user_id": 0,"name": "???????????"}
+                        ]},
+                        {"user_id": 1,"name": "changeDirToTarget","children":[
+                                {"user_id": 0,"name": "???????????"}
+                        ]},
+                        {"user_id": 2,"name": "changeDirToTargetMax","children":[
+                                {"user_id": 0,"name": "???????????"}
+                        ]},
+                        {"user_id": 3,"name": "movable","children":[
+                                {"user_id": 0,"name": "???????????"}
+                        ]},
+                        {"user_id": 4,"name": "property","children":[
+                                {"user_id": 0,"name": "animControlType","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]},
+                                {"user_id": 1,"name": "adjustAnimToTarget","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]},
+                                {"user_id": 2,"name": "lockOn","children":[
+                                        {"user_id": 0,"name": "effectId","children":[
+                                                {"user_id": 0,"name": "???????????"}
+                                        ]},
+                                        {"user_id": 1,"name": "msgId","children":[
+                                                {"user_id": 0,"name": "???????????"}
+                                        ]},
+                                        {"user_id": 2,"name": "laucnByMaxTarget","children":[
+                                                {"user_id": 0,"name": "???????????"}
+                                        ]}                                        
+                                ]},
+                                {"user_id": 3,"name": "movingCast","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]},
+                                {"user_id": 4,"name": "movingShot","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]}                                
+                        ]},
+                        {"user_id": 5,"name": "animSeq","children":[
+                                {"user_id": 0,"name": "duration","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]},
+                                {"user_id": 1,"name": "animSet","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]},
+                                {"user_id": 2,"name": "animName","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]},
+                                {"user_id": 3,"name": "animRate","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]},
+                                {"user_id": 4,"name": "blendInTimee","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]},
+                                {"user_id": 5,"name": "animMotionId","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]},
+                                {"user_id": 6,"name": "bAminLooping","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]},
+                                {"user_id": 7,"name": "loopingRate","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]},
+                                {"user_id": 8,"name": "rootMotionXYRate","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]},
+                                {"user_id": 9,"name": "rootMotionZRate","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]},
+                                {"user_id": 10,"name": "movingAnimName","children":[
+                                        {"user_id": 0,"name": "???????????"}
+                                ]}                                
+                        ]}                        
+                ]}
+            ]}, 
+            {"user_id": 4,"name": "cameraShakeList","children": [
+                {"user_id": 0,"name": "duration","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 1,"name": "targetType","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 2,"name": "startTime","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 3,"name": "power","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 4,"name": "innerRadius","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 5,"name": "outerRadius","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 6,"name": "speed","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 7,"name": "startValue","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 8,"name": "shakeId","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 9,"name": "startCondition","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]}                     
+            ]},
+            {"user_id": 5,"name": "cameraType","children": [
+                {"user_id": 0,"name": "duration","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 1,"name": "type","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 2,"name": "startTime","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 3,"name": "weight","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 4,"name": "startStageId","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]}  
+            ]},
+            {"user_id": 6,"name": "cancel","children": [
+                {"user_id": 0,"name": "frontCancelEndTime","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 1,"name": "moveCancelStartTime","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 2,"name": "rearCancelStartTime","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]}
+            ]},
+            {"user_id": 7,"name": "cameraZoom","children": [
+                {"user_id": 0,"name": "duration","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 1,"name": "startTime","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 2,"name": "zoomExp","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 3,"name": "stopOnActionEnd","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 4,"name": "zoomDistance","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]}                      
+            ]} 
+        ]},
+
+        {"user_id": 30,"name": "TargetingList","children": [
+            {"user_id": 0,"name": "adjustTargetingPos","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "useRawTarget","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 2,"name": "targeting","children": [
+                    {"user_id": 0,"name": "id","children": [
+                        {"user_id": 0,"name": "???????????"}
+                    ]},
+                    {"user_id": 1,"name": "type","children": [
+                        {"user_id": 0,"name": "???????????"}
+                    ]},
+                    {"user_id": 2,"name": "time","children": [
+                        {"user_id": 0,"name": "???????????"}
+                    ]},
+                    {"user_id": 3,"name": "method","children": [
+                        {"user_id": 0,"name": "???????????"}
+                    ]},
+                    {"user_id": 4,"name": "endTime","children": [
+                        {"user_id": 0,"name": "???????????"}
+                    ]},
+                    {"user_id": 5,"name": "startTime","children": [
+                        {"user_id": 0,"name": "???????????"}
+                    ]},
+                    {"user_id": 6,"name": "interval","children": [
+                        {"user_id": 0,"name": "???????????"}
+                    ]},
+                    {"user_id": 7,"name": "until","children": [
+                        {"user_id": 0,"name": "???????????"}
+                    ]},
+                    {"user_id": 8,"name": "areaList","children": [
+                            {"user_id": 0,"name": "area","children": [
+                                    {"user_id": 0,"name": "rotateAngle","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 1,"name": "type","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 2,"name": "maxHeight","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 3,"name": "maxCount","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 4,"name": "maxRadius","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 5,"name": "offsetDistance","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 6,"name": "pierceDepth","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 7,"name": "minHeight","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 8,"name": "rangeAngle","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 9,"name": "crosshairRadius","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 10,"name": "minRadius","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 11,"name": "offsetAngle","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 12,"name": "crosshairRadius2","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 13,"name": "effect","children": [
+                                            {"user_id": 0,"name": "atk","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                            ]},
+                                            {"user_id": 1,"name": "hpDiff","children": [
+                                                    {"user_id": 0,"name": "value","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]}
+                                            ]},
+                                            {"user_id": 2,"name": "mpDiff","children": [
+                                                    {"user_id": 0,"name": "value","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]}
+                                            ]},
+                                            {"user_id": 3,"name": "abnormalityOnCommon","children": [
+                                                    {"user_id": 0,"name": "id","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]}
+                                            ]},
+                                            {"user_id": 4,"name": "abnormalityOnPvp","children": [
+                                                    {"user_id": 0,"name": "id","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]}
+                                            ]},
+                                            {"user_id": 5,"name": "teleport","children": [
+                                                    {"user_id": 0,"name": "type","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},
+                                                    {"user_id": 1,"name": "recallContinent","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},
+                                                    {"user_id": 2,"name": "recallPos","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]}                                                    
+                                            ]}
+                                    ]},
+                                    {"user_id": 14,"name": "reaction","children": [
+                                            {"user_id": 0,"name": "basicRate","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                            ]},
+                                            {"user_id": 1,"name": "minRate","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                            ]},
+                                            {"user_id": 2,"name": "airReaction","children": [
+                                                    {"user_id": 0,"name": "distance","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},
+                                                    {"user_id": 1,"name": "firstDistance","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},
+                                                    {"user_id": 2,"name": "downAccel","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},
+                                                    {"user_id": 3,"name": "firstDownAccel","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},   
+                                                    {"user_id": 4,"name": "firstUpAccel","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},
+                                                    {"user_id": 5,"name": "firstUpDistance","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},
+                                                    {"user_id": 6,"name": "firstUpVelocity","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},
+                                                    {"user_id": 7,"name": "upAccel","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},   
+                                                    {"user_id": 8,"name": "upDistance","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},
+                                                    {"user_id": 9,"name": "upVelocity","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},
+                                                    {"user_id": 10,"name": "downVelocity","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]}                                                    
+                                            ]},
+                                            {"user_id": 3,"name": "dynamicReaction","children": [
+                                                    {"user_id": 0,"name": "reactionAccel","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},
+                                                    {"user_id": 1,"name": "reactionEndSpeed","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},
+                                                    {"user_id": 2,"name": "reactionSpeed","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]},
+                                                    {"user_id": 3,"name": "useInterpolation","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                    ]}                                                    
+                                            ]}                                            
+                                    ]},
+                                    {"user_id": 15,"name": "hitEffect","children": [
+                                            {"user_id": 0,"name": "type","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                            ]}  
+                                    ]}                                    
+                            ]},
+                            {"user_id": 1,"name": "cost","children": [
+                                    {"user_id": 0,"name": "hp","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 1,"name": "mp","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 2,"name": "st","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]},
+                                    {"user_id": 3,"name": "stRate","children": [
+                                        {"user_id": 0,"name": "???????????"}
+                                    ]}
+                            ]},
+                            {"user_id": 2,"name": "projectileSkillList","children": [
+                                    {"user_id": 2,"name": "projectileSkill","children": [
+                                            {"user_id": 0,"name": "id","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                            ]},
+                                            {"user_id": 1,"name": "detachDistance","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                            ]},
+                                            {"user_id": 2,"name": "detachHeight","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                            ]},
+                                            {"user_id": 3,"name": "detachHeight","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                            ]},
+                                            {"user_id": 4,"name": "flyingSpeed","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                            ]},
+                                            {"user_id": 5,"name": "ignoreGeo","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                            ]},
+                                            {"user_id": 6,"name": "shootAngle","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                            ]},
+                                            {"user_id": 7,"name": "shootFoward","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                            ]}
+                                    ]}
+                            ]}
+                    ]}                    
+            ]}                
+        ]},
+
+        {"user_id": 31,"name": "Defence","children": [
+            {"user_id": 0,"name": "rootMotion","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "allDirection","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 2,"name": "succesAnimName","children": [
+                {"user_id": 0,"name": "??????????"}
+            ]},
+            {"user_id": 3,"name": "superArmor","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]}                
+        ]},
+
+        {"user_id": 32,"name": "ConnectSkill","children": [
+            {"user_id": 0,"name": "redirectSkill","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "addAbnormalityConnectSkill","children": [
+                {"user_id": 0,"name": "abnormalityId","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 1,"name": "redirectSkill","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]}
+            ]},
+            {"user_id": 2,"name": "addConnectSkill","children": [
+                {"user_id": 0,"name": "redirectSkill","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]}
+            ]}                
+        ]},
+
+        {"user_id": 33,"name": "ShorTek","children": [
+            {"user_id": 0,"name": "dist","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]}                
+        ]},
+
+        {"user_id": 34,"name": "Drain","children": [
+            {"user_id": 0,"name": "backSkillId","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]}                
+        ]},
+
+        {"user_id": 35,"name": "KeyState","children": [
+            {"user_id": 1,"name": "State","children": [
+                {"user_id": 0,"name": "skillId","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 1,"name": "left","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 2,"name": "right","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 3,"name": "backward","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 4,"name": "foward","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]},                        
+                {"user_id": 5,"name": "onlyActive","children":[
+                        {"user_id": 0,"name": "???????????"}
+                ]}   
+            ]}                
+        ]},                
+
+        {"user_id": 36,"name": "Precondition","children": [
+            {"user_id": 0,"name": "coolTime","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "modeChangeMethod","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 2,"name": "modNo","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 3,"name": "cost","children": [
+                {"user_id": 0,"name": "hp","children": [
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 1,"name": "mp","children": [
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 2,"name": "stRate","children": [
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 3,"name": "st","children": [
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 4,"name": "itemList","children": [
+                        {"user_id": 0,"name": "???????????"}
+                ]}                    
+            ]},
+            {"user_id": 4,"name": "exclusiveAbnormality","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]}                
+        ]},
+
+        {"user_id": 37,"name": "Projectile","children": [
+            {"user_id": 0,"name": "lifeTime","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "areaBoxSizeY","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 2,"name": "areaBoxSizeY","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 3,"name": "areaBoxSizeX","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 4,"name": "hideFromEnemy","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 5,"name": "instanceShotHit","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 6,"name": "targetingList","children": [
+                {"user_id": 0,"name": "targeting","children": [
+                        {"user_id": 0,"name": "type","children": [
+                                {"user_id": 0,"name": "???????????"}
+                        ]},
+                        {"user_id": 1,"name": "areaList","children": [
+                                {"user_id": 0,"name": "area","children": [
+                                        {"user_id": 0,"name": "maxCount","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                        ]},
+                                        {"user_id": 1,"name": "rotateAngle","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                        ]},
+                                        {"user_id": 2,"name": "maxRadius","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                        ]},
+                                        {"user_id": 3,"name": "offsetDistance","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                        ]},
+                                        {"user_id": 4,"name": "pierceDepth","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                        ]},
+                                        {"user_id": 5,"name": "rangeAngle","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                        ]},
+                                        {"user_id": 6,"name": "offsetAngle","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                        ]}                                        
+                                ]},
+                                {"user_id": 1,"name": "effect","children": [
+                                        {"user_id": 0,"name": "atk","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                        ]},
+                                        {"user_id": 1,"name": "hpDiff","children": [
+                                                {"user_id": 0,"name": "value","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                ]}
+                                        ]},
+                                        {"user_id": 2,"name": "mpDiff","children": [
+                                                {"user_id": 0,"name": "value","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                ]}
+                                        ]},
+                                        {"user_id": 3,"name": "abnormalityOnCommon","children": [
+                                                {"user_id": 0,"name": "id","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                ]}
+                                        ]},
+                                        {"user_id": 4,"name": "abnormalityOnPvp","children": [
+                                                {"user_id": 0,"name": "id","children": [
+                                                        {"user_id": 0,"name": "???????????"}
+                                                ]}
+                                        ]}
+                                ]}                                
+                        ]},
+                        {"user_id": 2,"name": "projectileSkillList","children": [
+                                {"user_id": 0,"name": "projectileSkill","children": [
+                                        {"user_id": 0,"name": "id","children": [
+                                                {"user_id": 0,"name": "???????????"}
+                                        ]}  
+                                ]}  
+                        ]}                        
+                ]}
+            ]}                
+        ]},
+
+        {"user_id": 38,"name": "AttackAnimRate","children": [
+            {"user_id": 0,"name": "minimumInterval","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "fast","children": [
+                    {"user_id": 0,"name": "downTime","children": [
+                        {"user_id": 0,"name": "???????????"}
+                    ]},
+                    {"user_id": 1,"name": "upTime","children": [
+                        {"user_id": 0,"name": "???????????"}
+                    ]} 
+            ]},
+            {"user_id": 2,"name": "slow","children": [
+                    {"user_id": 0,"name": "upTime","children": [
+                        {"user_id": 0,"name": "???????????"}
+                    ]},
+                    {"user_id": 1,"name": "zeroTime","children": [
+                        {"user_id": 0,"name": "???????????"}
+                    ]},                    
+                    {"user_id": 2,"name": "slowDownTime","children": [
+                        {"user_id": 0,"name": "???????????"}
+                    ]} 
+            ]}                                
+        ]},
+
+        {"user_id": 39,"name": "WeaponIK","children": [
+            {"user_id": 0,"name": "type","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "endTime","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 2,"name": "startTme","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]}                
+        ]},
+
+        {"user_id": 40,"name": "Counter","children": [
+                {"user_id": 0,"name": "???????????"}
+        ]},
+
+        {"user_id": 41,"name": "ChargingStageList","children": [
+            {"user_id": 0,"name": "movable","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "movingAnimName","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 2,"name": "waitAnimName","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 3,"name": "costTotalHp","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 4,"name": "costTotalMp","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 5,"name": "chargeStage","children": [
+                {"user_id": 0,"name": "duration","children": [
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 1,"name": "costHpRate","children": [
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 2,"name": "costMpRate","children": [
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 3,"name": "skillId","children": [
+                        {"user_id": 0,"name": "???????????"}
+                ]}                    
+            ]},                
+            {"user_id": 6,"name": "interval","children": [
+                {"user_id": 0,"name": "time","children": [
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 1,"name": "costHpRate","children": [
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 2,"name": "costMpRate","children": [
+                        {"user_id": 0,"name": "???????????"}
+                ]}
+            ]}                
+        ]},
+
+        {"user_id": 42,"name": "ConnectSkill","children": [
+            {"user_id": 0,"name": "redirectSkill","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "addAbnormalityConnectSkill","children": [
+                {"user_id": 0,"name": "abnormalityId","children": [
+                        {"user_id": 0,"name": "???????????"}
+                ]},
+                {"user_id": 1,"name": "redirectSkill","children": [
+                        {"user_id": 0,"name": "???????????"}
+                ]}
+            ]}                
+        ]},
+
+        {"user_id": 43,"name": "InverseCapture","children": [
+            {"user_id": 0,"name": "holdTime","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "holdingAnim","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 2,"name": "movingDuration","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 3,"name": "succesAnim","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 4,"name": "withdrawAnim","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]}                     
+        ]},
+
+        {"user_id": 44,"name": "Bulldozer","children": [
+            {"user_id": 0,"name": "duration","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "zeroTime","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 2,"name": "slowDownTime","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]}                
+        ]},
+
+        {"user_id": 45,"name": "Pulling","children": [
+            {"user_id": 0,"name": "attackBone","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "maxHeight","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 2,"name": "resource","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 3,"name": "maxHeightRate","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 4,"name": "pullEffectTime","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 5,"name": "throwEffectTime","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 6,"name": "weightFactor","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]}                
+        ]},
+
+        {"user_id": 46,"name": "Dash","children": [
+            {"user_id": 0,"name": "speed","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "dashRedirectSkill","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 2,"name": "followTarget","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 3,"name": "mustHaveTarget","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]}                
+        ]},
+
+        {"user_id": 47,"name": "UserProjectileCurveMode","children": [
+            {"user_id": 0,"name": "controllerPointHeightOffsetA","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "controllerPointHeightOffsetB","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 2,"name": "controllerPointLocRateA","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 3,"name": "controllerPointLocRateB","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]}                  
+        ]},
+
+        {"user_id": 48,"name": "AutoContinue","children": [
+            {"user_id": 0,"name": "skillId","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]},
+            {"user_id": 1,"name": "useOnSuccess","children": [
+                {"user_id": 0,"name": "???????????"}
+            ]}                
+        ]}              
+]}
