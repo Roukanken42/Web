@@ -1,9 +1,51 @@
+ITEM DATA
+
 Id : Item Identity
 name : Item name
-coolTime : cooltime to use the item
-catergory: category of the item //list the categories
+coolTime : cooldown to use the item
+catergory: category of the item
+          {'twohand', 'gauntlet', 'order', 'handLeather', 'belt', 'style_circle', 'service', 'armorMaterial', 'fiber', 'metal', 'dyeItem', 'feetRobe', 'weaponMaterial', 'artisan', 'quest', 'dyeRecipe', 'feetLeather', 'rod', 'style_twohand', 'handMail', 'dual', 'customize_weapon', 'staff', 'enchantScroll', 'token', 'document', 'etc', 'armorComponent', 'earring', 'style_face', 'style_gauntlet', 'lance', 'handRobe', 'TOKEN', 'combat', 'feetMail', 'enchant_agent', 'bow', 'style_blaster', 'crestPoint', 'petAdult', 'dyeRaw', 'style_lance', 'style_chain', 'style_hair', 'style_axe', 'shuriken', 'alchemy', 'leather', 'necklace', 'magical', 'accessoryFace', 'skillbook', 'blaster', 'crest', 'brooch', 'alchemyMaterial', 'keyItem', 'weaponComponent', 'style_bow', 'recipe', 'style_back', 'petOrb', 'customize_accessory', 'generalMaterial', 'underwear', 'chain', 'axe', 'union', 'ring', 'style_body', 'bodyLeather', 'style_dual', 'circle', 'pkitem', 'style_shuriken', 'accessoryHair', 'style_staff', 'medal', 'extractRecipe', 'charm', 'style_rod', 'enchantComponent', 'bodyRobe', 'bodyMail', 'enchant_material', 'fireworkMaterial', 'customize_armor'}
 level: minimum level to use
 icon: ??
 rank: tier of the equipment
 maxStacks: ??
 rareGrade : ??
+requiredEquipmentType : ??
+combatItemType : ??
+equipSound: ??
+artisanable: if the source can be from crafting
+boundType : soulbind type
+buyPrice: Npc price in coppers
+changeColorEnable: can use dye
+changeLook: //its not used anymore, remodeling was removed
+coolTimeGroup: The group the item share the same cooldown
+destroyable:can be discarded?
+dropSilhouette: ??
+enchantEnable : can be enchanted
+extractLook: // used for remodeling
+guildWarehouseStorable : can be stored in guild bank
+
+masterpieceRate: ??
+obtainable:??
+sellPrice : sell price in copper
+slotLimit : how many items you can have in your inventory
+sortingNumber: sort priority when sorting bank/inventory
+tradable: it is tradeable
+unidentifiedItemGrade : ??
+useOnlyTerriory: ??
+warehouseStorable: can be storage in the bank
+usedSound: ??
+requiredUserStatus : Status the player need be incombat/not in combat
+
+
+
+   //Links
+   linkCrestId:??
+   linkCustomizingId
+   linkEquipmentId
+   linkLookInfoId
+   linkPetAdultId
+   linkPerOrbidId
+   linkSkillId
+   
+
