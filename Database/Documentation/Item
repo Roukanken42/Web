@@ -6,13 +6,13 @@ coolTime : cooldown to use the item
 catergory: category of the item
           {'twohand', 'gauntlet', 'order', 'handLeather', 'belt', 'style_circle', 'service', 'armorMaterial', 'fiber', 'metal', 'dyeItem', 'feetRobe', 'weaponMaterial', 'artisan', 'quest', 'dyeRecipe', 'feetLeather', 'rod', 'style_twohand', 'handMail', 'dual', 'customize_weapon', 'staff', 'enchantScroll', 'token', 'document', 'etc', 'armorComponent', 'earring', 'style_face', 'style_gauntlet', 'lance', 'handRobe', 'TOKEN', 'combat', 'feetMail', 'enchant_agent', 'bow', 'style_blaster', 'crestPoint', 'petAdult', 'dyeRaw', 'style_lance', 'style_chain', 'style_hair', 'style_axe', 'shuriken', 'alchemy', 'leather', 'necklace', 'magical', 'accessoryFace', 'skillbook', 'blaster', 'crest', 'brooch', 'alchemyMaterial', 'keyItem', 'weaponComponent', 'style_bow', 'recipe', 'style_back', 'petOrb', 'customize_accessory', 'generalMaterial', 'underwear', 'chain', 'axe', 'union', 'ring', 'style_body', 'bodyLeather', 'style_dual', 'circle', 'pkitem', 'style_shuriken', 'accessoryHair', 'style_staff', 'medal', 'extractRecipe', 'charm', 'style_rod', 'enchantComponent', 'bodyRobe', 'bodyMail', 'enchant_material', 'fireworkMaterial', 'customize_armor'}
 level: minimum level to use
-icon: ??
+icon: item icon - in format of {gpk name}.{icon name}
 rank: tier of the equipment
-maxStacks: ??
-rareGrade : ??
-requiredEquipmentType : ??
-combatItemType : ??
-equipSound: ??
+maxStack: maximum number of items in one stack
+rareGrade : rarity, {0: common, 1: uncommon, 2: rare, 3: superior}
+requiredEquipmentType : equied gear type - {'EQUIP_ARMOR_BODY', 'NO_COMBAT', 'EQUIP_ARMOR_ARM', 'EQUIP_ARMOR_LEG', 'EQUIP_ACCESSORY', 'EQUIP_WEAPON'}
+combatItemType : {'EQUIP_ARMOR_BODY', 'RECOVERY_FATIGUE_POINT', 'CREST', 'MEGAPHONE', 'EnchantScroll', 'CHRONO_SCROLL', 'CHANGE_RACE', 'SYNTHESIZER', 'PREMIUM_RENAME', 'DUNGEON_COIN', 'EQUIP_ARMOR_LEG', 'LOOT_MOTION_ONLY', 'SKILLBOOK', 'TOKEN', 'BOOKMARK', 'QUEST', 'FloatingCastle_partsstore', 'DOCUMENT', 'EQUIP_UNDERWEAR', 'INC_CHARACTER_LEVEL', 'GAIN_EP_POINT', 'LOCKBOX_KEY', 'RESET_EP', 'GAIN_EP_EXP', 'UNBINDER', 'SERVANT_FEED', 'CUSTOM', 'SOCIALBOOK', 'CITY_WAR_GUILD_TOWER_TELEPORT', 'SHARED_INC_CHARACTER_SOCKET', 'PREMIUM_COMPOSE', 'INC_CHARACTER_SOCKET', 'LOCKBOX', 'EQUIP_STYLE_BACK', 'INC_INVEN_SLOT', 'MIX_DISPOSAL', 'EQUIP_INHERITANCE', 'CREST_POINT', 'IDENTIFY_SCROLL', 'RECIPE', 'CHANGE_GENDER', 'GUILD_TOWER', 'NO_COMBAT', 'TELEPORT_TO_VILLAGE', 'UNIDENTIFY_SCROLL', 'MEDAL_USEABLE', 'LEVEL_JUMPING_UP', 'RAWSTONE', 'IMMEDIATE', 'EQUIP_STYLE_BODY', 'INGAME_CHANGE_LOOKS', 'EQUIP_ACCESSORY', 'EQUIP_STYLE_ACCESSORY', 'RESET_SCROLL', 'ENCHANT_MATERIAL', 'INC_CHARACTER_EXP', 'SHARED_INC_STYLE_WAREHOUSE_PAGE', 'INC_WAREHOUSE_SLOT', 'RENAME_GUILD', 'INC_STYLE_WAREHOUSE_SLOT', 'CHANGE_LOOKS', 'DISPOSAL', 'GACHA', 'CHANGE_COLOR_ITEM', 'EQUIP_ARMOR_ARM', 'CHANGE_VOICE', 'DUNGEON_RESET_SCROLL', 'SHARED_INC_WAREHOUSE_PAGE', 'EQUIP_STYLE_WEAPON', 'BUILD_OBJECT_NOTICE', 'CHANGE_NAME', 'EQUIP_WEAPON', 'ENCHANTER', 'ENCHANT_COMPONENT_WEAPON'}
+equipSound: sound of equiping the item (probably reference to gpk)
 artisanable: if the source can be from crafting
 boundType : soulbind type
 buyPrice: Npc price in coppers
@@ -20,7 +20,7 @@ changeColorEnable: can use dye
 changeLook: //its not used anymore, remodeling was removed
 coolTimeGroup: The group the item share the same cooldown
 destroyable:can be discarded?
-dropSilhouette: ??
+dropSilhouette: model when dropped on ground ??
 enchantEnable : can be enchanted
 extractLook: // used for remodeling
 guildWarehouseStorable : can be stored in guild bank
@@ -32,9 +32,9 @@ slotLimit : how many items you can have in your inventory
 sortingNumber: sort priority when sorting bank/inventory
 tradable: it is tradeable
 unidentifiedItemGrade : ??
-useOnlyTerriory: ??
+useOnlyTerriory: Civil unrest only ??
 warehouseStorable: can be storage in the bank
-usedSound: ??
+usedSound: sounds made on use
 requiredUserStatus : Status the player need be incombat/not in combat
 
 
