@@ -1,1 +1,9 @@
 Id : Item Identity
+name : Item name
+coolTime : cooltime to use the item
+catergory: category of the item //list the categories
+level: minimum level to use
+icon: ??
+rank: tier of the equipment
+maxStacks: ??
+rareGrade : ??
